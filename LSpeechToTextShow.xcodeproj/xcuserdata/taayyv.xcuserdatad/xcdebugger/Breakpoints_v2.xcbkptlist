@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "23378216-D179-4186-98DE-5C031DFF3861"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "015C60D1-6A65-4BAF-BA8D-8E5E79190566"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "audioRecorderDidFinishRecording(_:successfully:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "015C60D1-6A65-4BAF-BA8D-8E5E79190566 - a1388206ba4ba75c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.audioRecorderDidFinishRecording(_: __C.AVAudioRecorder, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "015C60D1-6A65-4BAF-BA8D-8E5E79190566 - a1388206ba4ba773"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.audioRecorderDidFinishRecording(_: __C.AVAudioRecorder, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E97445B1-4576-4C07-9254-3473F2C24D32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LAudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "audioPlayerDecodeErrorDidOccur(_:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D5DB408-BED9-4209-9B5C-0B51FC43BA7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "startRecordAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D5DB408-BED9-4209-9B5C-0B51FC43BA7F - 131987df931e66b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.startRecordAction() -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2032">
+               </Location>
+               <Location
+                  uuid = "7D5DB408-BED9-4209-9B5C-0B51FC43BA7F - 131987df931e66b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.startRecordAction() -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2104">
+               </Location>
+               <Location
+                  uuid = "7D5DB408-BED9-4209-9B5C-0B51FC43BA7F - 131987df931e6152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.startRecordAction() -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AA22E2D-BA20-472F-84B1-15DB6C83079A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "prepareToRecord()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7AA22E2D-BA20-472F-84B1-15DB6C83079A - 7e54d57a0fe8fd4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LRecorder.prepareToRecord() -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "7AA22E2D-BA20-472F-84B1-15DB6C83079A - 3a3b5e6e1f018fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in LSpeechToTextShow.LRecorder.prepareToRecord() -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92C0EFAB-3645-4A60-958E-A05C660B1EF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "startRecordAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC7A6B5B-AD08-4E1F-8E81-AB1BC7A01A01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LAudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "audioPlayerDidFinishPlaying(_:successfully:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA7DCDA7-BD16-4803-B930-C186F3309935"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/SoundHandle/LAudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "startPlay(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA7DCDA7-BD16-4803-B930-C186F3309935 - fb291eb5a3bb626e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LAudioPlayer.startPlay(url: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LAudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "AA7DCDA7-BD16-4803-B930-C186F3309935 - fb291eb5a3bb626e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LAudioPlayer.startPlay(url: Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/SoundHandle/LAudioPlayer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95FF1CC7-7795-4537-ADC6-4ECED08E64E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Audio/LPlayerStateMachine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "changePlayerState(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F81D2923-23F9-497C-AE01-C47DBF0F2DC9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Audio/LAudioRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233">
+            <Locations>
+               <Location
+                  uuid = "F81D2923-23F9-497C-AE01-C47DBF0F2DC9 - 2fc596bd463232e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LAudioRecorder.audioRecorderDidFinishRecording(_: __C.AVAudioRecorder, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/Audio/LAudioRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "F81D2923-23F9-497C-AE01-C47DBF0F2DC9 - 2fc596bd463232e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LAudioRecorder.audioRecorderDidFinishRecording(_: __C.AVAudioRecorder, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/LSpeechToTextShow/LSpeechToTextShow/Audio/LAudioRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "233"
+                  endingLineNumber = "233"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F298389-7B6F-4BD6-9ED5-442336F4DEC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Controller/LHomePage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "handleRecordStateChangeWhenInterrupt()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDF31867-62B1-433C-9776-EE886B08E676"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/LData/LDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "saveItem(_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D16B056-0AE3-4E96-B067-FD5D3C5012BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/LData/LDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "addItemData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "251F4BA2-1CB4-4D3A-B0A4-4CA4D2106B80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/LData/LDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "saveToLocal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87A3EAD5-EC25-485C-9108-C7BBEE83372C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/LData/LDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "saveToLocal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D825C499-639C-4C8D-A61D-03DE236CBC8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Tools/LNotificationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "notifyUserAudioRecordInterrupted()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2EB9A9C-1590-4003-A106-B44A2C3AD592"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Audio/LAudioRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "handleInteruption(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A3B4C1E-3773-4D36-A84D-4F7F26F05186"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LSpeechToTextShow/Pages/History/LHistoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "toDetailPage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A3B4C1E-3773-4D36-A84D-4F7F26F05186 - 47b2810a2be8f690"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LHistoryTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LSpeechToTextShow.LHistoryTableViewCell&gt;"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/DesShowApp/LSpeechToTextShow/Pages/History/LHistoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "9A3B4C1E-3773-4D36-A84D-4F7F26F05186 - 4f56ee06a71a91d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LSpeechToTextShow.LHistoryTableViewCell.toDetailPage(__C.UIButton) -&gt; ()"
+                  moduleName = "LSpeechToTextShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taayyv/Desktop/DesShowApp/LSpeechToTextShow/Pages/History/LHistoryTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
