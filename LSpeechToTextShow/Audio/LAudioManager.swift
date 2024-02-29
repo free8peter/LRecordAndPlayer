@@ -7,6 +7,7 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
+// Audio管理类,负责引擎prepare等
 class LAudioManager: NSObject, ObservableObject {
     static let sharedInstance: LAudioManager = LAudioManager()
     public var audioEngine: AVAudioEngine?

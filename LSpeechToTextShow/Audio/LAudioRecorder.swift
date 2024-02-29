@@ -9,6 +9,7 @@ import UIKit
 import Foundation
 import AVFoundation
 
+// AudioRecoder，负责record
 class LAudioRecorder: NSObject {
     public static let sharedInstance = LAudioRecorder()
     

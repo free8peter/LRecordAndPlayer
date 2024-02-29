@@ -8,6 +8,9 @@
 import UIKit
 import Speech
 
+/**
+ 文本转化类，负责录音中同时转化文本
+ */
 class LSpeechTranscriptor: NSObject {
     static let sharedInstance = LSpeechTranscriptor()
     
