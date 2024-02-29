@@ -7,7 +7,6 @@
 import UIKit
 import AVFoundation
 
-//Audio播放配置类，负责配置相关参数
 class LAudioConfig: NSObject {
     public static func startPlayConfig() {
         let audioSession = AVAudioSession.sharedInstance()

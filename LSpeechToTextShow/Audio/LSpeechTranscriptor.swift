@@ -8,9 +8,6 @@
 import UIKit
 import Speech
 
-/**
- 文本转化类，负责录音中同时转化文本
- */
 class LSpeechTranscriptor: NSObject {
     static let sharedInstance = LSpeechTranscriptor()
     
@@ -53,7 +50,16 @@ class LSpeechTranscriptor: NSObject {
             if result != nil {
                 if let result = result{
                     LAudioData.sharedInstance.outputText = result.bestTranscription.formattedString
-                    NSLog("---->%@", LAudioData.sharedInstance.outputText)
+                    // 借用了 recorder的状态机，触发更新文本事件
+                    let statusTemp: LRecorderState? = LAudioManager.sharedInstance.recorderStateMachine?.currentState
+                    if let status = statusTemp {
+                        if (status == .START || status == .DURING_RECORDING) {
+                            let recordMachine: LRecorderStateMachine? = LAudioManager.sharedInstance.recorderStateMachine
+                            if let machine = recordMachine {
+                                machine.inRecordingEvent()
+                            }
+                        }
+                    }
                 }
                 if error != nil {
                     // Stop recognizing speech if there is a problem.

@@ -10,9 +10,6 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
-/**
- AudioPlayer,负责播放录音
- */
 class LAudioPlayer: NSObject {
     public static let sharedInstance: LAudioPlayer = LAudioPlayer()
     

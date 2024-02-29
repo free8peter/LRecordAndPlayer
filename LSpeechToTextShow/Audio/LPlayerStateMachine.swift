@@ -18,7 +18,7 @@ enum LPlayerState {
 }
 
 // 播放状态发生改变
-typealias LPlayerStateChange = (_ beforeState : LPlayerState, _ currentState: LPlayerState, _ needUpdateUI: Bool) -> Void
+typealias LPlayerStateChange = (_ beforeState : LPlayerState, _ currentState: LPlayerState, _ stateChanged: Bool) -> Void
 
 /**
  播放状态状态机

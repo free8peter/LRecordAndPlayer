@@ -9,9 +9,6 @@ import UIKit
 import Foundation
 import AVFoundation
 
-/**
- 数据类，记录部分临时数据等
- */
 class LAudioData: NSObject {
     static let sharedInstance: LAudioData = LAudioData()
     public var audioEngine = AVAudioEngine()

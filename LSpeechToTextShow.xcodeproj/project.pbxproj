@@ -554,7 +554,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 445M8S66VJ;
+				DEVELOPMENT_TEAM = 66Q677B4RW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LSpeechToTextShow/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要您的同意才可录音";
@@ -570,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hx.gogo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.gogogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -585,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 445M8S66VJ;
+				DEVELOPMENT_TEAM = 66Q677B4RW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LSpeechToTextShow/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App需要您的同意才可录音";
@@ -601,7 +601,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hx.gogo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hx.gogogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

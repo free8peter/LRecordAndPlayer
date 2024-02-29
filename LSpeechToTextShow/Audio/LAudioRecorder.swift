@@ -9,7 +9,6 @@ import UIKit
 import Foundation
 import AVFoundation
 
-// AudioRecoder，负责record
 class LAudioRecorder: NSObject {
     public static let sharedInstance = LAudioRecorder()
     
@@ -69,15 +68,14 @@ class LAudioRecorder: NSObject {
     }
     
     func stop() {
+        LSpeechTranscriptor.sharedInstance.endTranscript()
         if let recorder = audioRecorder {
             recorder.stop()
-            
         }
         // todo peter
 //        LAudioData.sharedInstance.recordingStatus = .stopped
         stopLoop()
         print("stop(): ", LAudioData.sharedInstance.audioEngine.isRunning)
-        LSpeechTranscriptor.sharedInstance.endTranscript()
     }
     
     func startUpdateLoop() {

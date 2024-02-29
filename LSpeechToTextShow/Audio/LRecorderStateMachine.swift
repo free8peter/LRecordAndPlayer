@@ -10,7 +10,7 @@ import UIKit
 enum LRecorderState {
     case INIT // 初始状态
     case START // 开始录音
-    case RECORDING // 录音中
+    case DURING_RECORDING // 录音中
     case FINISH // 完成录音
     case RESUME // 中断可以恢复的状态
     case CANOT_CRESUME // 中断后无法恢复
@@ -20,7 +20,7 @@ enum LRecorderState {
 }
 
 // 录音状态回调函数
-typealias LRecorderStateChange = (_ beforeState : LRecorderState, _ currentState: LRecorderState, _ needUpdateUI: Bool) -> Void
+typealias LRecorderStateChange = (_ beforeState : LRecorderState, _ currentState: LRecorderState, _ stateChanged: Bool) -> Void
 
 /**
  录音状态机
@@ -52,7 +52,7 @@ class LRecorderStateMachine: NSObject {
     
     // 录音中事件
     func inRecordingEvent() {
-        changeRecordState(.RECORDING)
+        changeRecordState(.DURING_RECORDING)
     }
     
     // 完成录音事件
@@ -82,8 +82,11 @@ class LRecorderStateMachine: NSObject {
     
     // 改变状态，并触发回调函数
     private func changeRecordState(_ state: LRecorderState) {
-        let stateBefore: LRecorderState = currentState;
-        currentState = state
-        recorderStateChange(stateBefore, currentState, stateBefore != currentState)
+        // 回到主线程触发状态变化，因为会涉及到UI操作
+        DispatchQueue.main.async() { [self] in
+            let stateBefore: LRecorderState = self.currentState;
+            self.currentState = state
+            self.recorderStateChange(stateBefore, self.currentState, stateBefore != self.currentState)
+        }
     }
 }
